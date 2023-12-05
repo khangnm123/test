@@ -1,0 +1,120 @@
+@media only screen and (max-width:768px) {
+    .body-landingpage{
+        .box_image1{
+            img{
+                height: 1500px !important;
+            }
+        }
+        .logo{
+            img{
+                height: 250px;
+            }
+        }
+    }
+    .box_grid{
+        &-list{
+            column-gap: 70px;
+        }
+    }
+    .row{
+        flex-wrap: unset !important;
+    }
+}
+@media only screen and (max-width:676px) {
+
+    .box_grid {
+        &-list {
+            column-gap: 40px;
+        }
+    }
+}
+@media only screen and (max-width:600px) {
+    .box_grid {
+        &-list {
+            .item{
+                img{
+                    width: 120px;
+                }
+            }
+        }
+    }
+    .body-landingpage {
+        .box_absolute{
+            top: 90px;
+            .body-form{
+                padding: 0px 15px;
+            }
+        }
+        .box_image1 {
+            img {
+                height: 1200px !important;
+            }
+        }
+     }
+
+}
+@media only screen and (max-width:450px) {
+    .body-landingpage {
+                .logo {
+                    img {
+                        height: 170px;
+                    }
+                }
+                .body-form{
+                    .btn{
+                        button{
+                            font-size: 24px !important;
+                        }
+                    }
+                 .form-background {
+                     .flex_item {
+                         p {
+                             font-size: 18px !important;
+                             b {    
+                                 font-size: 20px !important;
+                             }
+                         }
+                     }
+                 }
+                }
+        .box_image{
+            img{
+                height: 1100px;
+            }
+        }
+    }
+    .box_grid {
+        &-list {
+            .item {
+                img {
+                    width: 100px;
+                }
+            }
+        }
+    }
+    .body-landingpage {
+        .box_image1 {
+            img {
+                height: 1000px !important;
+            }
+        }
+    }
+}
+@media only screen and (max-width:375px) {
+    .box_grid {
+        &-list {
+            .item {
+                img {
+                    width: 70px;
+                }
+            }
+        }
+    }
+         .body-landingpage {
+             .box_image1 {
+                 img {
+                     height: 875px !important;
+                 }
+             }
+         }
+}
